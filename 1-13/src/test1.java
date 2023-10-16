@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+
 public class test1 {
 	public static void main(String[] args) {
 		//改行
@@ -40,8 +42,10 @@ public class test1 {
 						if(k != 4) {
 						
 							strArray4.add(strArray3.get(k));	
-							System.out.println(strArray4.get(strArray4.size()-1));
+							
 						}
+					    if(k == 5)
+						System.out.println(strArray4);
 						
 					}
 					
