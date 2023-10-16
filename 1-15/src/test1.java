@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Collections;
 
 public class test1 {
 	public static void main(String[] args) {
@@ -45,7 +46,7 @@ public class test1 {
 	
 	//問題3:整数の配列を受け取り、その配列の要素を降順にソートするメソッドを作成してください。(for文は利用しないこと)
 	public static void arraysSort(Integer[] i) {
-	    Arrays.sort(i);
+	    Arrays.sort(i,Collections.reverseOrder());
 	    System.out.println(Arrays.toString(i));
 	}
 	
