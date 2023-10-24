@@ -19,7 +19,7 @@ public class test1{
 
 	        try {
 	            // Handlerを生成しloggerに登録
-	            FileHandler fHandler = new FileHandler("middleskill.log");
+	            FileHandler fHandler = new FileHandler("src/middleskill.log");
 	            fHandler.setFormatter(new SimpleFormatter());
 	            middleskill_log.addHandler(fHandler);
 
