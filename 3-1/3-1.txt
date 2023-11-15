@@ -16,4 +16,4 @@
 　Spring Bootプロジェクトで使用するJavaのバージョン
 　
 ⑥DBの接続情報を記載する設定ファイル名は何になりますか？
-build.gradle、pom.xml
+application.properties
